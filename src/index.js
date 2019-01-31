@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let form = document.querySelector("#pokemon-search-form")
   form.addEventListener('input', function(search) {
-    let text = search.target.value
+    let text = search.target.value.toLowerCase()
     const names = document.querySelectorAll(".pokemon-card")
 
     for (let name of names) {
