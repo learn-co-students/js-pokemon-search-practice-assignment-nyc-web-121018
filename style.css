@@ -23,8 +23,40 @@ body {
 }
 
 #pokemon-logo {
-  width: 300px;
-  margin-left: 330px;
+  width: 500px;
+  margin-left: 240px;
+}
+
+#new-pokemon-container {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#pokemon-new-form{
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#pokemon-new-input {
+  font-size: 2rem;
+  border: 3px solid #fecd2f;
+  color: #2d72fc;
+}
+
+#form-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #2d72fc;
+}
+
+#new-submit-btn{
+  font-size: 2rem;
+  /* width: 100px; */
+  /* height: 100px; */
+  color: #2d72fc;
 }
 
 input:focus {
@@ -46,6 +78,7 @@ input:focus {
 
 .pokemon-image {
   width: 96px;
+  height: 96px;
   margin: auto;
 }
 
